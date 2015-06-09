@@ -1,0 +1,45 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/Setup
+export GIT_SSL_NO_VERIFY=true
+
+# Alias for Linux Setup
+alias ls='ls -Fh --color=auto'
+alias l='ls -ltr'
+alias la='l -a'
+# Alias for user path
+alias cdrpt='cd /var/www/duzheng/vhosts/dev1-duzheng.swiss.dev.transferto.com/cgi-bin/fm/'
+
+# Setting for the new UTF-8 terminal support in Lion
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# Setup GIT Color
+function parse_git_branch() 
+{
+        git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+RED="\[\033[0;31m\]"
+NO_COLOUR="\[\033[0m\]"
+export PS1="$PS1$RED\$(parse_git_branch)$NO_COLOUR\$ "
+
+
+
+# Set up for GIT auto complete
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+# Use original git diff, open with vim read only mode
+function git_diff() 
+{
+  git diff --no-ext-diff -w "$@" | vim -R -
+}

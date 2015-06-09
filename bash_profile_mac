@@ -1,0 +1,42 @@
+
+
+#Color coding for MAC bash
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+export PATH=~/.vim/bin:$PATH
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH" 
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+export PATH=$PATH:$HOME/Setup
+
+alias ls='ls -GFh --color'
+alias l='ls -ltr'
+alias la='l -a'
+# Alias for user path
+alias sshdev='ssh duzheng@swiss-web-dev.fixedandmobile.com'
+alias sshpri='ssh duzheng@swiss-pri.fixedandmobile.com'
+alias sshjob='ssh duzheng@jobs1-sg-pri.fixedandmobile.com'
+
+
+# Setup GIT Color
+function parse_git_branch() 
+{
+        git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+RED="\[\033[0;31m\]"
+NO_COLOUR="\[\033[0m\]"
+export PS1="$PS1$RED\$(parse_git_branch)$NO_COLOUR\$ "
+
+
+
+# Set up for GIT auto complete
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+# Use original git diff, open with vim read only mode
+function git_diff() 
+{
+  git diff --no-ext-diff -w "$@" | vim -R -
+}
