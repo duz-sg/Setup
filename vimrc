@@ -29,4 +29,4 @@ vnoremap <silent> _t :!perltidy -q<Enter>
 " "--------------------
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 
-colorscheme wombat256mod 
+colorscheme wombat256i 
