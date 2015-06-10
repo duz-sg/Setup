@@ -17,6 +17,7 @@ alias l='ls -ltr'
 alias la='l -a'
 # Alias for user path
 alias cdrpt='cd /var/www/duzheng/vhosts/dev1-duzheng.swiss.dev.transferto.com/cgi-bin/fm/'
+alias cdsi='cd /var/www/duzheng/vhosts/dev2-duzheng.swiss.dev.transferto.com/cgi-bin/fm/' 
 
 # Setting for the new UTF-8 terminal support in Lion
 export LC_CTYPE=en_US.UTF-8
