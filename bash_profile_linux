@@ -15,6 +15,7 @@ export GIT_SSL_NO_VERIFY=true
 alias ls='ls -Fh --color=auto'
 alias l='ls -ltr'
 alias la='l -a'
+alias ct='ctags -R *'
 # Alias for user path
 alias cdrpt='cd /var/www/duzheng/vhosts/dev1-duzheng.swiss.dev.transferto.com/cgi-bin/fm/'
 alias cdsi='cd /var/www/duzheng/vhosts/dev2-duzheng.swiss.dev.transferto.com/cgi-bin/fm/' 
