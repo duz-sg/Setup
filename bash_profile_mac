@@ -15,6 +15,7 @@ alias l='ls -ltr'
 alias la='l -a'
 # Alias for user path
 alias sshdev='ssh duzheng@swiss-web-dev.fixedandmobile.com'
+alias sshprod='ssh duzheng@swiss-web-prod.fixedandmobile.com'
 alias sshpri='ssh duzheng@swiss-pri.fixedandmobile.com'
 alias sshjob='ssh duzheng@jobs1-sg-pri.fixedandmobile.com'
 
