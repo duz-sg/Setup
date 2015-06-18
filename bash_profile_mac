@@ -18,6 +18,8 @@ alias sshdev='ssh duzheng@swiss-web-dev.fixedandmobile.com'
 alias sshprod='ssh duzheng@swiss-web-prod.fixedandmobile.com'
 alias sshpri='ssh duzheng@swiss-pri.fixedandmobile.com'
 alias sshjob='ssh duzheng@jobs1-sg-pri.fixedandmobile.com'
+alias sshlog='ssh duzheng@logger-sg-pri.fixedandmobile.com'
+alias sshvat='ssh duzheng@vatican-pri.fixedandmobile.com'
 
 
 # Setup GIT Color
