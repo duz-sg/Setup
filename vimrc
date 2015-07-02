@@ -8,6 +8,7 @@ syntax enable
 
 set tabstop=4
 set shiftwidth=4
+set fileformat=unix
 
 set ignorecase
 set smartcase
