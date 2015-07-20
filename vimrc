@@ -5,10 +5,10 @@ set smartindent
 " Prevent vi move single line comment to the beginning
 filetype plugin indent on
 syntax enable
+set syn=perl
 
 set tabstop=4
 set shiftwidth=4
-set fileformat=unix
 
 set ignorecase
 set smartcase
