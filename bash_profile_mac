@@ -10,8 +10,9 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 export PATH=$PATH:$HOME/Setup
 
-alias ls='ls -GFh --color'
+alias ls='pwd;ls -GFh --color'
 alias l='ls -ltr'
+alias ll='ls -ltr'
 alias la='l -a'
 # Alias for user path
 alias sshdev='ssh duzheng@swiss-web-dev.fixedandmobile.com'

@@ -12,8 +12,9 @@ export PATH=$PATH:$HOME/Setup
 export GIT_SSL_NO_VERIFY=true
 
 # Alias for Linux Setup
-alias ls='ls -Fh --color=auto'
+alias ls='pwd;ls -Fh --color=auto'
 alias l='ls -ltr'
+alias ll='ls -ltr'
 alias la='l -a'
 alias ct='ctags -R *'
 # Alias for user path
