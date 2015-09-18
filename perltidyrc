@@ -9,6 +9,7 @@
 --closing-side-comments
 --closing-side-comment-list="sub : BEGIN END"
 --closing-side-comment-prefix="## ---------- end" 
+--vertical-tightness=0
 -bl		# Opening braces left
 -sbl		# Opening braces left for sub
 -et=4		# Enalble leading white space
