@@ -18,7 +18,7 @@ alias ll='ls -ltr'
 alias la='l -a'
 alias ct='ctags -R *'
 # Alias for user path
-alias cdrpt='cd /var/www/duzheng/vhosts/report_duzheng.swiss.dev.transferto.com/apps/report/cgi-bin/'
+alias cdrpt='cd /var/www/duzheng/vhosts/report.duzheng.swiss.dev.transferto.com/cgi-bin'
 alias cdsi='cd /var/www/duzheng/vhosts/salesint-duzheng.swiss.dev.transferto.com/apps/salesint/cgi-bin/' 
 alias cdlog='cd /etc/httpd/logs/' 
 
