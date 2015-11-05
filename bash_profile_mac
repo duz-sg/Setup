@@ -9,6 +9,7 @@ export PATH=~/.vim/bin:$PATH
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH" 
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 export PATH=$PATH:$HOME/Setup
+export PATH=$APTH:$HOME/perl5/lib/perl5/darwin-thread-multi-2level
 
 alias ls='pwd;ls -GFh --color'
 alias l='ls -ltr'
