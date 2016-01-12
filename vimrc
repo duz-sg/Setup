@@ -7,6 +7,8 @@ filetype plugin indent on
 syntax enable
 set syn=perl
 
+set backspace=2 " make backspace work like most other apps
+
 set tabstop=4
 set shiftwidth=4
 
