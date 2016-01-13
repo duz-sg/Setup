@@ -55,6 +55,8 @@ plugins=(git osx history history-substring-search)
 
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:/Users/duzheng/.vim/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/duzheng/Setup"
 export PATH="$PATH:$HOME/perl5/bin"
+export PATH="$PATH:$HOME/perl5/lib/perl5"
+export PATH="$PATH:$HOME/perl5/lib/perl5/darwin-thread-multi-2level"
 export PERL5LIB="$PATH:$HOME/perl5/lib/perl5/darwin-thread-multi-2level"
 # export MANPATH="/usr/local/man:$MANPATH"
 
