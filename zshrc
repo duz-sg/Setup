@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/duzheng/.oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -40,7 +40,7 @@ ZSH_THEME="agnoster"
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="yyyy-mm-dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -53,7 +53,7 @@ plugins=(git osx history history-substring-search)
 
 # User configuration
 
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:/Users/duzheng/.vim/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/duzheng/Setup"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$HOME/.vim/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/Setup"
 export PATH="$PATH:$HOME/perl5/bin"
 export PATH="$PATH:$HOME/perl5/lib/perl5"
 export PATH="$PATH:$HOME/perl5/lib/perl5/darwin-thread-multi-2level"
