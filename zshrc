@@ -97,3 +97,4 @@ alias sshjob='ssh du.zheng@jobs1-sg-pri.fixedandmobile.com'
 alias sshlog='ssh du.zheng@logger-sg-pri.fixedandmobile.com'
 alias sshvat='ssh duzheng@vatican-eqx.fixedandmobile.com'
 
+if which plenv > /dev/null; then eval "$(plenv init - zsh)"; fi
