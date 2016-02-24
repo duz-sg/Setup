@@ -89,6 +89,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Alias for user path
 alias sshdev='ssh duzheng@swiss-web-dev.fixedandmobile.com'
+alias sshmac='ssh duzheng@macau-web-dev.fixedandmobile.com'
 alias sshprod='ssh duzheng@swiss-web-prod.fixedandmobile.com'
 alias sshswiss='ssh duzheng@swiss-eqx.fixedandmobile.com'
 alias sshint='ssh duzheng@internal-web-prod.fixedandmobile.com'
