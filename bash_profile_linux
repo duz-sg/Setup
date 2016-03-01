@@ -18,8 +18,8 @@ alias ll='ls -ltr'
 alias la='l -a'
 alias ct='ctags -R *'
 # Alias for user path
-alias cdrpt='cd /var/www/duzheng/vhosts/report-duzheng.swiss.dev.transferto.com/cgi-bin'
-alias cdsi='cd /var/www/duzheng/vhosts/salesint-duzheng.swiss.dev.transferto.com/cgi-bin/' 
+alias cdrpt='cd /var/www/duzheng/vhosts/report-duzheng.macau.dev.transferto.com/cgi-bin'
+alias cdsi='cd /var/www/duzheng/vhosts/salesint-duzheng.macau.dev.transferto.com/cgi-bin/' 
 alias cdlog='cd /etc/httpd/logs/' 
 
 # Setting for the new UTF-8 terminal support in Lion
