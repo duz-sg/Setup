@@ -9,6 +9,7 @@ set syn=perl
 
 set backspace=2 " make backspace work like most other apps
 
+set expandtab " use space instead of tab
 set tabstop=4
 set shiftwidth=4
 
