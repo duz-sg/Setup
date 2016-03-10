@@ -6,13 +6,13 @@
 --nooutdent-long-lines
 --nospace-for-semicolon
 --fixed-position-side-comment=49
---closing-side-comments
---closing-side-comment-list="sub : BEGIN END"
---closing-side-comment-prefix="## ---------- end" 
+#--closing-side-comments
+#--closing-side-comment-list="sub : BEGIN END"
+#--closing-side-comment-prefix="## ---------- end" 
 --vertical-tightness=0
 -bl		# Opening braces left
 -sbl		# Opening braces left for sub
--et=4		# Enalble leading white space
+#-et=4		# Enalble leading white space
 -nolq		# Don't outdent long quoted strings
 -nsfs		# No space before semicolons
 -csci=10	# Closing side comment for block > 10 lines
