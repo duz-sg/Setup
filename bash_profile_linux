@@ -21,6 +21,7 @@ alias ct='ctags -R *'
 alias cdrpt='cd /var/www/duzheng/vhosts/report-duzheng.macau.dev.transferto.com/cgi-bin'
 alias cdsi='cd /var/www/duzheng/vhosts/salesint-duzheng.macau.dev.transferto.com/cgi-bin/' 
 alias cdlog='cd /etc/httpd/logs/' 
+alias f='sudo su - fm' 
 
 # Setting for the new UTF-8 terminal support in Lion
 export LC_CTYPE=en_US.UTF-8
