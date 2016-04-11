@@ -54,14 +54,14 @@
 -- border drawing style
 -- values:ascii,old-ascii,unicode
 
-\pset linestyle unicode
+\pset linestyle ascii 
 
 --------------------------------------------
 -- border
 -- number of borders and lines for the tables
 -- values:number
 
-\pset border 2
+\pset border 1 
 
 --------------------------------------------
 -- Extended display
