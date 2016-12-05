@@ -1,0 +1,18 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = true
+	pager = true
+[user]
+	name = Du Zheng
+	email = du.zheng@transfer-to.com
+[diff]
+	external = git_diff_wrapper.sh
+[pager]
+	diff =

@@ -99,3 +99,17 @@ alias sshlog='ssh du.zheng@logger-sg-pri.fixedandmobile.com'
 alias sshvat='ssh duzheng@vatican-eqx.fixedandmobile.com'
 
 if which plenv > /dev/null; then eval "$(plenv init - zsh)"; fi
+
+source ~/.iterm2_shell_integration.`basename $SHELL`
+
+# Color coding for MAC 
+alias ls='pwd;ls -GFh --color'
+alias l='ls -ltr'
+alias ll='ls -ltr'
+alias la='l -a'
+
+# Use original git diff, open with vim read only mode
+function git_diff() 
+{
+  git diff --no-ext-diff -w "$@" | vim -R -
+}
