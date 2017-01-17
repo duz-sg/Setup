@@ -10,8 +10,8 @@
 	ui = true
 	pager = true
 [user]
-	name = duz-sg
-	email = duz.s@icloud.com
+	name = "Du Zheng" 
+	email = du.zhengs@transfer-to.com
 [diff]
 	external = git_diff_wrapper.sh
 [pager]
