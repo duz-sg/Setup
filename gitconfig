@@ -11,7 +11,7 @@
 	pager = true
 [user]
 	name = "Du Zheng" 
-	email = du.zhengs@transfer-to.com
+	email = du.zheng@transfer-to.com
 [diff]
 	external = git_diff_wrapper.sh
 [pager]
