@@ -17,7 +17,7 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
-set nowrap 
+set nowrap
 set foldmethod=manual
 set clipboard=unnamed
 set mouse=a
@@ -33,4 +33,11 @@ vnoremap <silent> _t :!perltidy -q<Enter>
 " "--------------------
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 
-colorscheme wombat256i 
+colorscheme wombat256i
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
