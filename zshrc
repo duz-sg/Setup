@@ -54,6 +54,7 @@ plugins=(git osx history history-substring-search)
 # User configuration
 
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$HOME/.vim/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/Setup"
+export PATH="$PATH:/usr/local/opt/postgresql@9.5/bin"
 export PATH="$PATH:$HOME/perl5/bin"
 export PATH="$PATH:$HOME/perl5/lib/perl5"
 export PATH="$PATH:$HOME/perl5/lib/perl5/darwin-thread-multi-2level"
