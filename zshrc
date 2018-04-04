@@ -54,6 +54,7 @@ plugins=(git osx history history-substring-search)
 # User configuration
 
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$HOME/.vim/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/Setup"
+export PATH="$PATH:/usr/local/opt/postgresql@9.5/bin"
 export PATH="$PATH:$HOME/perl5/bin"
 export PATH="$PATH:$HOME/perl5/lib/perl5"
 export PATH="$PATH:$HOME/perl5/lib/perl5/darwin-thread-multi-2level"
@@ -97,19 +98,20 @@ alias sshpri='ssh duzheng@swiss-pri.fixedandmobile.com'
 alias sshjob='ssh du.zheng@jobs1-sg-pri.fixedandmobile.com'
 alias sshlog='ssh du.zheng@logger-sg-pri.fixedandmobile.com'
 alias sshvat='ssh duzheng@vatican-eqx.fixedandmobile.com'
+alias sshwpr='ssh du.zheng@workers1.mmhpreprod.com'
 
 if which plenv > /dev/null; then eval "$(plenv init - zsh)"; fi
 
 source ~/.iterm2_shell_integration.`basename $SHELL`
 
-# Color coding for MAC 
+# Color coding for MAC
 alias ls='pwd;ls -GFh --color'
 alias l='ls -ltr'
 alias ll='ls -ltr'
 alias la='l -a'
 
 # Use original git diff, open with vim read only mode
-function git_diff() 
+function git_diff()
 {
   git diff --no-ext-diff -w "$@" | vim -R -
 }

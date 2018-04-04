@@ -1,17 +1,25 @@
--pbp		# Perl Best Practice
---quiet
---continuation-indentation=4
---indent-columns=4
---maximum-line-length=180
---nooutdent-long-lines
---nospace-for-semicolon
---fixed-position-side-comment=49
-#--closing-side-comments
-#--closing-side-comment-list="sub : BEGIN END"
-#--closing-side-comment-prefix="## ---------- end" 
---vertical-tightness=0
--bl		# Opening braces left
--sbl		# Opening braces left for sub
+-pbp     # Perl Best Practice
+-w       # Show all warnings
+-iob     # Ignore old breakpoints
+-l=180    # 80 characters per line
+-mbl=2   # No more than 2 blank lines
+-i=4     # Indentation is 4 columns
+-ci=4    # Continuation indentation is 4 columns
+-vt=0    # Less vertical tightness
+-pt=1    # Mid parenthesis tightness
+-bt=1    # Mid brace tightness
+-sbt=1   # Mid square bracket tightness
+-isbc    # Don't indent comments without leading space
+#--quiet
+#--continuation-indentation=4
+#--indent-columns=4
+#--maximum-line-length=80
+#--nooutdent-long-lines
+#--nospace-for-semicolon
+#--fixed-position-side-comment=49
+#--vertical-tightness=0
+#-bl		# Opening braces left
+#-sbl		# Opening braces left for sub
 #-et=4		# Enalble leading white space
 -nolq		# Don't outdent long quoted strings
 -nsfs		# No space before semicolons
