@@ -48,3 +48,7 @@ function git_diff()
 {
   git diff --no-ext-diff -w "$@" | vim -R -
 }
+
+export PATH="/Users/duz/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"

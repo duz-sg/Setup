@@ -113,3 +113,13 @@ function git_diff()
 {
   git diff --no-ext-diff -w "$@" | vim -R -
 }
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/duz/Dropbox/Education/OSU/CS496/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/duz/Dropbox/Education/OSU/CS496/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/duz/Dropbox/Education/OSU/CS496/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/duz/Dropbox/Education/OSU/CS496/google-cloud-sdk/completion.zsh.inc'; fi
+
+export PATH="/Users/duz/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
