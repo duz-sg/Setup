@@ -123,5 +123,9 @@ if [ -f '/Users/duz/Dropbox/Education/OSU/CS496/google-cloud-sdk/path.zsh.inc' ]
 if [ -f '/Users/duz/Dropbox/Education/OSU/CS496/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/duz/Dropbox/Education/OSU/CS496/google-cloud-sdk/completion.zsh.inc'; fi
 
 export PATH="/Users/duz/.pyenv/bin:$PATH"
+export PATH="/Users/duz/.poetry/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+export PATH="/usr/local/opt/libpq/bin:$PATH"
+eval "$(nodenv init -)"
+export PATH="/usr/local/go/bin:$PATH"

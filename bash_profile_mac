@@ -41,3 +41,5 @@ function git_diff()
 export PATH="/Users/duz/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+export PATH="$HOME/.poetry/bin:$PATH"
